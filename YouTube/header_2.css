@@ -1,0 +1,62 @@
+.taskbar2 {
+    height: 56px;
+    width: 100%;
+    padding-left: 24px;
+    background-color: #212121;
+    position: fixed;
+    left: 67px;
+    right: 0px;
+    top: 60px;
+    display: flex;
+    z-index: 9; 
+}
+
+.filter {
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    margin: 12px 12px 12px 0px;
+    color: #f1f1f1;
+    background-color: #3d3d3d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    transition: background-color 0.15s;
+}
+.filter1 {
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    margin: 12px 12px 12px 0px;
+    color: #212121;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+}
+
+.filter:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+.filter1:hover .secmsg,
+.filter:hover .secmsg {
+    opacity: 1;
+}
+.filter1 .secmsg,
+.filter .secmsg {
+    font-size: 12px;
+    padding: 5px 7px 5px 7px;
+    border: 1px solid white;
+    color: #f1f1f1;
+    background-color: #3d3d3d;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 50;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
