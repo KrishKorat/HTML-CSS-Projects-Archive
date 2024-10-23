@@ -1,0 +1,167 @@
+/* Main Box (Containing all videos */
+.videos {
+    padding-top: 136px;
+    padding-left: 90px;
+    padding-right: 16px;
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 16px;
+    z-index: 0;
+}
+
+/* Div with Thumbnail & Video description */
+.videocard {
+    width: 100%;
+    cursor: pointer;
+}
+.thumbnail {           /* Thumbnail's Div */
+    width: 100%;
+    position: relative;
+}
+.img-thumbnail {      /* Thumbnail */
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}                
+.time {                /* Time Stamp */
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+/* Lower div (For channel logo and video's info) */
+.videoinfo {
+    grid-template-columns: 1fr;
+    display: flex;
+}
+
+.channellogo {           /* Channel logo's div */
+    width: 50px;
+    position: relative;
+}
+.img-channellogo {       /* Channel logo (img) */
+    height: 36px;
+    width: 36px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.channellogo:hover .chnlinfo {
+    opacity: 1;
+}
+/* Extra hovering mini-project */
+.chnlinfo {
+    padding: 15px;
+    background-color: #212121;
+    border-radius: 10px;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+    bottom: -60px;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.chnlpfpdiv {
+    background-color: #212121;
+    z-index: 20;
+}
+.chnlpfp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.chnldesc {
+    margin-left: 10px;
+    background-color: #212121;
+    white-space: nowrap;
+    z-index: 20;
+}
+.chnlname {
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+.chnlsubs {
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+
+
+.videodesc {             /* Video info's div */         
+    width: 100%;
+    padding: 12px;
+}
+.videotitle {           /* Video title */
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+.channelname {          /* Channel name */
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+.channelname:hover .cnname {
+    opacity: 1;
+}
+.cnname {
+    font-size: 12px;
+    padding: 10px 7px 10px 7px;
+    color: white;
+    background-color: rgba(170,170,170,0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: -60px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.desc {                  /* Views & Upload timeline */
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+
+.more {                 /* Button for more options */
+    width: 10px;
+    margin-top: 12px;
+    color: #f1f1f1;
+}
+
+
+/* Adjusting Video Layout */
+@media (min-width:800px) {
+    .videos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:600px) and (max-width:799px) {
+    .videos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:599px) {
+    .videos {
+        grid-template-columns: 1fr;
+    }
+}
