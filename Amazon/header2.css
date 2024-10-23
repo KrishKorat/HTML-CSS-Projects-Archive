@@ -1,0 +1,44 @@
+/* Lower Header in General */
+.navbar2 {
+    height: 40px;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+}
+
+/* Border Effect */
+.border1 {
+    border: 1px solid transparent;
+}
+.border1:hover {
+    border: 1px solid white;
+}
+
+/* Button 1 */
+.all {
+    height: 38px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ham {
+    height: 15px;
+    width: 15px;
+    padding-bottom: 3px;
+    margin-right: 3px;
+    color: white;
+}
+.allpara {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Other Buttons */
+.buttonss {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 11px 8px 11px 8px;
+    cursor: pointer;
+}
