@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+
+    <!-- For logos (Font awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Roboto link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="overall.css">
+    <link rel="stylesheet" href="header_1.css">
+    <link rel="stylesheet" href="header_2.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <header>
+
+        <!-- Upper Taskbar -->
+        <div class="taskbar1">
+
+            <!-- Left Section -->
+            <div class="left-sec">
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="ytlogo">
+                    <img src="Taskbar/youtube.png" class="ytlogo">
+                    <div class="secmsg">
+                        YouTube Home
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mid Section -->
+            <div class="mid-sec">
+                <input class="searchbar" type="text" placeholder="Search">
+                <button class="magnifine">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="secmsg">
+                        Search
+                    </div>
+                </button>
+                <button class="search-voice">
+                    <i class="fa-solid fa-microphone"></i>
+                    <div class="secmsg">
+                        Search with your voice
+                    </div>
+                </button>
+            </div>
+
+            <!-- Right Section -->
+            <div class="right-sec">
+                <div class="create">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <div class="secmsg">
+                        Create
+                    </div>
+                </div>
+                <div class="bell">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="secmsg">
+                        Notifications
+                    </div>
+                </div>
+                <div class="pfp">
+                    <img src="Taskbar/pfp.jpg" class="pfp">
+                </div>
+            </div>
+
+        </div> <!-- End of  Upper Taskbar -->
+
+        <!-- Lower Taskbar -->
+        <div class="taskbar2">
+
+            <!-- Buttons -->
+            <button class="filter1">
+                All
+                <div class="secmsg">
+                    All
+                </div>
+            </button>
+            <button class="filter">
+                Music
+                <div class="secmsg">
+                    Music
+                </div>
+            </button>
+            <button class="filter">
+                Formula 1
+                <div class="secmsg">
+                    Formula 1
+                </div>
+            </button>
+            <button class="filter">
+                Mixes
+                <div class="secmsg">
+                    Mixes
+                </div>
+            </button>
+            <button class="filter">
+                News
+                <div class="secmsg">
+                    News
+                </div>
+            </button>
+            <button class="filter">
+                Web Development
+                <div class="secmsg">
+                    Web Development
+                </div>
+            </button>
+            <button class="filter">
+                Computer programming
+                <div class="secmsg">
+                    Computer programming
+                </div>
+            </button>
+            <button class="filter">
+                Stock Car Racing
+                <div class="secmsg">
+                    Stock Car Racing
+                </div>
+            </button>
+            <button class="filter">
+                Live
+                <div class="secmsg">
+                    Live
+                </div>
+            </button>
+            <button class="filter">
+                History
+                <div class="secmsg">
+                    History
+                </div>
+            </button>
+            <button class="filter">
+                Japanese Music
+                <div class="secmsg">
+                    Japanese Music
+                </div>
+            </button>
+            <button class="filter">
+                New to you
+                <div class="secmsg">
+                    New to you
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <!-- Side Bar -->
+    <nav class="sidebar">
+
+        <!-- Home -->
+        <div class="home">
+            <div class="icon-home">
+                <i class="fa-solid fa-house" id="icon-home"></i>
+            </div>
+            <p class="p-home">Home</p>
+            <div class="secmsg">
+                Home
+            </div>
+        </div>
+
+        <!-- Shorts -->
+        <div class="shorts">
+            <div class="icon-shorts">
+                <img src="Sidebar/shorts.png" class="icon-shorts">
+            </div>
+            <p class="p-shorts">Shorts</p>
+            <div class="secmsg">
+                Shorts
+            </div>
+        </div>
+
+        <!-- Subscription -->
+        <div class="subscriptions">
+            <div class="icon-subscriptions">
+                <img src="Sidebar/subscriptions.png" class="icon-subscriptions">
+            </div>
+            <p class="p-subscriptions">Subscriptions</p>
+            <div class="secmsg">
+                Subscriptions
+            </div>
+        </div>
+
+        <!-- You -->
+        <div class="you">
+            <div class="icon-you">
+                <img src="Sidebar/you.png" class="icon-you">
+            </div>
+            <p class="p-you">You</p>
+            <div class="secmsg">
+                You
+            </div>
+        </div>
+
+    </nav> <!-- End of Sidebar -->
+
+    <!-- Video Display -->
+    <section class="videos">
+
+        <!-- Video Card -->
+        <div class="videocard">
+
+            <!-- Upper Part (Thumbnail) -->
+            <div class="thumbnail">
+                <a href="https://youtu.be/7QJ-N-AQJYc?si=a6fo1TDIVqOUj4Z8" target="_blank">
+                    <img src="Thumbnails/thumbnail-1.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">8:08</div>
+            </div>
+
+            <!-- Lower Part -->
+            <div class="videoinfo">
+
+                <!-- Channel Logo (Left Side) -->
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@Formula1" target="_blank">
+                        <img src="Logos/logo-1.jpg" class="img-channellogo">
+                    </a>
+                    <!-- Extra Hovering -->
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-1.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                FORMULA 1
+                            </p>
+                            <p class="chnlsubs">
+                                10.8M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Description (Right Side) -->
+                <div class="videodesc">
+                    <!-- Video Title -->
+                     <a href="https://youtu.be/7QJ-N-AQJYc?si=a6fo1TDIVqOUj4Z8" target="_blank" class="videotitle">
+                            Race Highlights | 2021 Abu Dhabi Grand Prix
+                     </a>
+                    <!-- Channel Name -->
+                     <div class="channelname">
+                        <a href="https://www.youtube.com/@Formula1" target="_blank" class="channelname">
+                            <p class="channelname">
+                                FORMULA 1
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            FORMULA 1
+                        </div>
+                     </div>
+                    <!-- Views & Upload Time -->
+                    <p class="desc">
+                        25M views &bull; 2 years ago
+                    </p>
+
+                <!-- More Option Logo -->
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/F4Y3Pkn95GI?si=YV4Oq5IW9NwaB1gn" target="_blank">
+                    <img src="Thumbnails/thumbnail-2.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">12:56</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                        <img src="Logos/logo-2.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-2.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                MrBeast
+                            </p>
+                            <p class="chnlsubs">
+                                306M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/F4Y3Pkn95GI?si=YV4Oq5IW9NwaB1gn" target="_blank" class="videotitle">
+                        I Ate A $70,000 Golden Pizza
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@MrBeast" target="_blank" class="channelname">
+                            <p class="channelname">
+                                MrBeast
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            MrBeast
+                        </div>
+                    </div>
+                    <p class="desc">
+                        258M views &bull; 4 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/G3e-cpL7ofc?si=ijP6fpeifMB94q78" target="_blank">
+                    <img src="Thumbnails/thumbnail-3.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">6:31:24</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                        <img src="Logos/logo-3.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-3.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                SuperSimpleDev
+                            </p>
+                            <p class="chnlsubs">
+                                471K subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/G3e-cpL7ofc?si=ijP6fpeifMB94q78" target="_blank" class="videotitle">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                            <p class="channelname">
+                                SuperSimpleDev
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            SuperSimpleDev
+                        </div>
+                    </div>
+                    <p class="desc">
+                        10M views &bull; 2 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/atWdrCO_N-o?si=4x2SrrQYIKfNiuqe" target="_blank">
+                    <img src="Thumbnails/thumbnail-4.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">3:55</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@1theK" target="_blank">
+                        <img src="Logos/logo-4.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-4.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                1theK (원더케이)
+                            </p>
+                            <p class="chnlsubs">
+                                24.4M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/atWdrCO_N-o?si=4x2SrrQYIKfNiuqe" target="_blank" class="videotitle">
+                        [MV] THE BOYZ(더보이즈) _ Echo 'Solo Leveling(나 혼자만 레벨업)' OST (WEBTOON PV)
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@1theK" target="_blank">
+                            <p class="channelname">
+                                1theK (원더케이)
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            1theK (원더케이)
+                        </div>
+                    </div>
+                    <p class="desc">
+                        4.9M views &bull; 2 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/uD4izuDMUQA?si=xgAUcDD0wjbKH-iv" target="_blank">
+                    <img src="Thumbnails/thumbnail-5.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">29:21</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@melodysheep" target="_blank">
+                        <img src="Logos/logo-5.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-5.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                melodysheep
+                            </p>
+                            <p class="chnlsubs">
+                                2.96M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/uD4izuDMUQA?si=xgAUcDD0wjbKH-iv" target="_blank" class="videotitle">
+                        TIMELAPSE OF THE FUTURE: A Journey to the End of Time (4K)
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@melodysheep" target="_blank">
+                            <p class="channelname">
+                                melodysheep
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            melodysheep
+                        </div>
+                    </div>
+                    <p class="desc">
+                        102M views &bull; 5 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/B_Pd4EvwpQY?si=yxf4QON7tEUcYf8w" target="_blank">
+                    <img src="Thumbnails/thumbnail-6.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">2:26</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@AnimeMVSensei" target="_blank">
+                        <img src="Logos/logo-6.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-6.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                Anime MV Sensei
+                            </p>
+                            <p class="chnlsubs">
+                                235K subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/B_Pd4EvwpQY?si=yxf4QON7tEUcYf8w" target="_blank" class="videotitle">
+                        Stay -「AMV」- Anime MV
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@AnimeMVSensei" target="_blank">
+                            <p class="channelname">
+                                Anime MV Sensei
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            Anime MV Sensei
+                        </div>
+                    </div>
+                    <p class="desc">
+                        9.9M views &bull; 2 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/uYPbbksJxIg?si=SGV1wOx3Wls05Lqu" target="_blank">
+                    <img src="Thumbnails/thumbnail-7.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">3:07</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@UniversalPictures" target="_blank">
+                        <img src="Logos/logo-7.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-7.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                Universal Pictures
+                            </p>
+                            <p class="chnlsubs">
+                                9.08M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/uYPbbksJxIg?si=SGV1wOx3Wls05Lqu" target="_blank" class="videotitle">
+                        Oppenheimer | New Trailer
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@UniversalPictures" target="_blank" class="channelname">
+                            <p class="channelname">
+                                Universal Pictures
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            Universal Pictures
+                        </div>
+                    </div>
+                    <p class="desc">
+                        71M views &bull; 1 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/tShYCQALuH8?si=RFkEqmldFpThC97H" target="_blank">
+                    <img src="Thumbnails/thumbnail-8.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">2:18</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@aniplex" target="_blank">
+                        <img src="Logos/logo-8.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-8.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                アニプレックス チャンネル
+                            </p>
+                            <p class="chnlsubs">
+                                2.95M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/tShYCQALuH8?si=RFkEqmldFpThC97H" target="_blank" class="videotitle">
+                        TVアニメ『BLEACH 千年血戦篇』PV第4弾｜2024年10月テレ東系列ほかにて第3クール放送開始
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@aniplex" target="_blank" class="channelname">
+                            <p class="channelname">
+                                アニプレックス チャンネル
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            アニプレックス チャンネル
+                        </div>
+                    </div>
+                    <p class="desc">
+                        1.1M views &bull; 2 weeks ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/YE30Hfyohbc?si=1ZOGO0ypNMvX3BOT" target="_blank">
+                    <img src="Thumbnails/thumbnail-9.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">17:21</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@Formula1" target="_blank">
+                        <img src="Logos/logo-9.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-9.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                FORMULA 1
+                            </p>
+                            <p class="chnlsubs">
+                                10.8M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/YE30Hfyohbc?si=1ZOGO0ypNMvX3BOT" target="_blank" class="videotitle">
+                        INSIDE STORY: How Sebastian Vettel Won The World Title From Last Place
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@Formula1" target="_blank" class="channelname">
+                            <p class="channelname">
+                                FORMULA 1
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            FORMULA 1
+                        </div>
+                    </div>
+                    <p class="desc">
+                        1.5M views &bull; 1 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/xAHpQHW5o58?si=F6TrV8p64zrnAhJt" target="_blank">
+                    <img src="Thumbnails/thumbnail-10.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">8:11</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@SciencephiletheAI" target="_blank">
+                        <img src="Logos/logo-10.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-10.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                Sciencephile the AI
+                            </p>
+                            <p class="chnlsubs">
+                                1.04M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://www.youtube.com/@SciencephiletheAI" target="_blank" class="videotitle">
+                        What if we replace the Sun with Extreme Space Objects?
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@SciencephiletheAI" target="_blank" class="channelname">
+                            <p class="channelname">
+                                Sciencephile the AI
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            Sciencephile the AI
+                        </div>
+                    </div>
+                    <p class="desc">
+                        6.3M views &bull; 3 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/Q4Xys-IRMr0?si=QKWP7CdKcXNohXip" target="_blank">
+                    <img src="Thumbnails/thumbnail-11.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">4:19</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@WhatIfScienceShow" target="_blank">
+                        <img src="Logos/logo-11.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-11.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                What If
+                            </p>
+                            <p class="chnlsubs">
+                                8.08M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/Q4Xys-IRMr0?si=QKWP7CdKcXNohXip" target="_blank" class="videotitle">
+                        What If We Dumped Our Trash into Volcanoes?
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@WhatIfScienceShow" target="_blank" class="channelname">
+                            <p class="channelname">
+                                What If
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            What If
+                        </div>
+                    </div>
+                    <p class="desc">
+                        17M views &bull; 5 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="videocard">
+            <div class="thumbnail">
+                <a href="https://youtu.be/0e3GPea1Tyg?si=pJhFPJLgQk4_Cfwv" target="_blank">
+                    <img src="Thumbnails/thumbnail-12.jpg" class="img-thumbnail">
+                </a>
+                <div class="time">25:42</div>
+            </div>
+            <div class="videoinfo">
+                <div class="channellogo">
+                    <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                        <img src="Logos/logo-12.jpg" class="img-channellogo">
+                    </a>
+                    <div class="chnlinfo">
+                        <div class="chnlpfpdiv">
+                            <img src="Logos/logo-12.jpg" class="chnlpfp">
+                        </div>
+                        <div class="chnldesc">
+                            <p class="chnlname">
+                                MrBeast
+                            </p>
+                            <p class="chnlsubs">
+                                306M subscribers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="videodesc">
+                    <a href="https://youtu.be/0e3GPea1Tyg?si=pJhFPJLgQk4_Cfwv" target="_blank" class="videotitle">
+                        $456,000 Squid Game In Real Life!
+                    </a>
+                    <div class="channelname">
+                        <a href="https://www.youtube.com/@MrBeast" target="_blank" class="channelname">
+                            <p class="channelname">
+                                MrBeast
+                            </p>
+                        </a>
+                        <div class="cnname">
+                            MrBeast
+                        </div>
+                    </div>
+                    <p class="desc">
+                        638M views &bull; 2 years ago
+                    </p>
+                </div>
+                <div class="more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
