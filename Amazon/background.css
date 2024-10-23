@@ -1,0 +1,9 @@
+.bgimg {
+    height: 600px;
+    width: 1303px;
+}
+.mainimg {
+    height: 600px;
+    width: 1303px;
+    object-fit: cover;
+}
