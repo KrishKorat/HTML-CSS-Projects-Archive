@@ -1,0 +1,128 @@
+
+/* Panel 1 (Box of Back to Top) */
+.footer-panel1 {
+    height: 50px;
+    width: 1303px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backtotop {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Panel 2 (Links) */
+.footer-panel2 {
+    width: 1303px;
+    padding-top: 50px;
+    color: white;
+    background-color: #222f3d;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+.title {               /* Main Titles */
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.tags {                 /* Sub Grey Coloured List Elements */
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #dddddd;
+}
+.tags:hover {
+    text-decoration: solid underline;
+    cursor: pointer;
+}
+.ul1 {
+    height: 292px;
+    width: 125px;
+    padding: 0;
+} 
+.ul2 {
+    height: 292px;
+    width: 175px;
+    padding: 0;
+}                                   /* All lists */
+.ul3 {
+    height: 292px;
+    width: 214px;
+    padding: 0;
+}
+.ul4 {
+    height: 292px;
+    width: 146px;
+    padding: 0;
+}
+
+.space {                    /* Space between lists */
+    height: 292px;
+    width: 100px;
+}
+
+
+/* Pannel 3 (Logo & Other options) */
+.footer-panel3 {
+    height: 80px;
+    width: 1000px;
+    padding: 10px 151.5px 10px 151.5px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoend {                             /* Amazon logo */
+    height: 75px;
+    width: 125px;
+    margin: 100px;
+}
+.logoendimg {
+    height: 75px;
+    width: 125px;
+}
+
+.endbut1 {                          /* Button 1 */
+    padding: 10px 50px 10px 10px;
+    margin-right: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.but1txt {
+    margin-left: 10px;
+}
+
+.endbut2 {                       /* Button 2 */
+    padding: 10px 40px 10px 10px;
+    margin-right: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.endbut3 {                           /* Button 3 */
+    padding: 5px 40px 5px 5px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.but3txt {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.flag2 {
+    height: 28px;
+    width: 26px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
