@@ -1,0 +1,186 @@
+.mainthing {
+    margin: 0px 25px 0px 25px;
+    position: relative;
+    top: -345px
+}
+
+/* First line */
+.amzin {
+    width: 1225px;
+    background-color: white;
+    text-wrap: none;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pamzin {
+    font-size: 14px;
+    color: #0f1111;
+}
+.amzinlink {
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+.amzinlink:hover {
+    color: orangered;
+    text-decoration: solid underline;
+}
+
+
+/* Boxes */
+.boxes {
+    width: 1252px;
+    display: grid;
+    grid-template-columns: 295px 295px 295px 295px;
+    column-gap: 24px;
+    row-gap: 20px;
+}
+
+/* Common Ground Classes in Boxes */
+.heading {
+    font-size: 21px;
+    line-height: 27px;
+}
+/* Box 1 */
+.b1 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+
+/* Box 2 */
+.b2 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+.divmainpic {
+    height: 300px;
+    width: 252px;
+    margin: 10px 0px 30px 0px;
+    cursor: pointer;
+}
+.mainpic {
+    height: 300px;
+    width: 252px;
+    object-fit: cover;
+}
+
+/* Box 3 */
+.b3 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+.maincon {                              /* Block below heading */
+    height: 300px;
+    width: 247px;
+    margin: 10px 0px 30px 0px;
+    display: grid;
+    grid-template-columns: 118px 118px;
+    column-gap: 16px;
+    row-gap: 22px;
+    cursor: pointer;
+}
+.x1 {                      /* One of Four Block (Pic and Desc) */
+    height: 130px;
+    width: 116px;
+}
+.pic {                   /* Picture */
+    height: 116px;
+    width: 118px;
+    object-fit: cover;
+}
+.txt {                    /* Description */
+    font-size: 12px;
+}
+
+.footing {               /* End line */
+    font-size: 13px;
+    color: #007185;
+}
+.footing:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+/* Box 4 */
+.b4 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+
+/* Box 5 */
+.b5 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+.maincomp {         /* Middle Section */
+    height: 300px;
+    width: 252px;
+    margin: 10px 0px 30px 0px;
+    cursor: pointer;
+}
+.uppersection {     /* Upper Section */
+    height: 190px;
+    width: 252px;
+    margin-bottom: 15px;
+}
+.appleimg {
+    height: 173px;
+    width: 252px;
+    object-fit: cover;
+}
+.applep {
+    font-size: 15px;
+}
+.lowersection {    /* Lower Section */
+    height: 101px;
+    width: 252px;
+}
+.photogrid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    column-gap: 3.5px;
+}
+.picz {
+    height: 75px;
+    width: 80px;
+    object-fit: cover;
+}
+.piczp {
+    font-size: 15px;
+}
+
+/* Box 6 */
+.b6 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+
+/* Box 7 */
+.b7 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
+
+/* Box 8 */
+.b8 {
+    height: 385px;
+    width: 255px;
+    padding: 20px 20px 15px 20px;
+    background-color: white;
+}
