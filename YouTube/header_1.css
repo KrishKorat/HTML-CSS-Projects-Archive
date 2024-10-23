@@ -1,0 +1,260 @@
+.taskbar1 {
+    height: 60px;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+
+/* Left Section (Hamburger & YT icon) */
+.left-sec {
+    height: 60px;
+    width: 160px;
+    margin: 0px 0px 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hamburger icon */
+.hamburger {
+    height: 28px;
+    width: 28px;
+    padding: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.15s;
+}
+.hamburger:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* YT logo */
+.ytlogo {
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+}
+.ytlogo:hover .secmsg {
+    opacity: 1;
+}
+.ytlogo .secmsg {
+    font-size: 12px;
+    padding: 5px 7px 5px 7px;
+    border: 1px solid white;
+    color: #f1f1f1;
+    background-color: #3d3d3d;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 50;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+/* Middle Section (Search bar & button, Search with voice) */
+.mid-sec {
+    height: 60px;
+    flex: 1;
+    margin: 0px 80px 0px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search bar */
+.searchbar {
+    height: 40px;
+    flex: 1;
+    max-width: 520px;
+    padding: 0px;
+    background-color: #212121;
+    border: 1px solid #3d3d3d;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+.searchbar::placeholder {
+    font-size: 18px;
+    padding: 15px;
+    color: #aaaaaa;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 50;
+}
+
+/* Search bar button */
+.magnifine {
+    height: 42px;
+    width: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    cursor: pointer;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    position: relative;
+    left: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.magnifine:hover .secmsg {
+    opacity: 1;
+}
+.magnifine .secmsg {
+    font-size: 12px;
+    padding: 10px 7px 10px 7px;
+    color: white;
+    background-color: rgba(170,170,170,0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+/* Search with voice button */
+.search-voice {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #3d3d3d;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    transition: background-color 0.15s;
+}
+.search-voice:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+.search-voice:hover .secmsg {
+    opacity: 1;
+}
+.search-voice .secmsg {
+    font-size: 12px;
+    padding: 10px 7px 10px 7px;
+    color: white;
+    background-color: rgba(170,170,170,0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: -50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+
+/* Right Section (Create, Notification & Profile) */
+.right-sec {
+    height: 60px;
+    width: 160px;
+    padding: 0px 16px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create */
+.create {
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    transition: background-color 0.15s;
+}
+.create:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+.create:hover .secmsg {
+    opacity: 1;
+}
+.create .secmsg {
+    font-size: 12px;
+    padding: 10px 7px 10px 7px;
+    color: white;
+    background-color: rgba(170,170,170,0.8);
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+/* Notification */
+.bell {
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    transition: background-color 0.15s;
+}
+.bell:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+.bell:hover .secmsg {
+    opacity: 1;
+}
+.bell .secmsg {
+    font-size: 12px;
+    padding: 10px 7px 10px 7px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(170,170,170,0.8);
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+/* Profile Picture */
+.pfp {
+    height: 32px;
+    width: 32px;
+    padding: 2px 14px 2px 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
