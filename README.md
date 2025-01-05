@@ -1,4 +1,4 @@
-# HTML & CSS Projects
+# HTML5 & CSS3 Projects
 
 This repository contains HTML and CSS-based clones of popular websites & non-clone websites. It includes:
 
