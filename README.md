@@ -1,1 +1,1 @@
-This repo contains all UI/UX Clones of popular websites.
+This repo contains HTML5-CSS3 projects.
