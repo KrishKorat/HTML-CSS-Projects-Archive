@@ -1,1 +1,1 @@
-This repo contains HTML5-CSS3 projects.
+This repo contains all HTML5-CSS3 only projects.
