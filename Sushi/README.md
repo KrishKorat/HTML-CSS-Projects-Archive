@@ -1,20 +1,20 @@
 # Output :
 
-Navbar :
+### Navbar :
 <img src="0_Output/01.png" alt="Output 1">
 
-Hero section :
+### Hero section :
 <img src="0_Output/02.png" alt="Output 2">
 
-About us section :
+### About us section :
 <img src="0_Output/03.png" alt="Output 3">
 
-Popular section :
+### Popular section :
 <img src="0_Output/04.png" alt="Output 4">
 
-Trending section :
+### Trending section :
 <img src="0_Output/05.png" alt="Output 5">
 <img src="0_Output/06.png" alt="Output 6">
 
-Newsletter & footer section :
+### Newsletter & footer section :
 <img src="0_Output/07.png" alt="Output 7">
